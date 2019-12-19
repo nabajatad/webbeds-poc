@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Test\\WebBeds.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\WebBeds.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\WebBeds.Repository.csproj",
+        "projectName": "WebBeds.Repository",
+        "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\WebBeds.Repository.csproj",
+        "packagesPath": "C:\\Users\\474191\\.nuget\\packages\\",
+        "outputPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\474191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj",
+        "projectName": "WebBeds.Service",
+        "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj",
+        "packagesPath": "C:\\Users\\474191\\.nuget\\packages\\",
+        "outputPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\474191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\WebBeds.Repository.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\IWebBedsRepository\\WebBeds.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Test\\WebBeds.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Test\\WebBeds.Test.csproj",
+        "projectName": "WebBeds.Test",
+        "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Test\\WebBeds.Test.csproj",
+        "packagesPath": "C:\\Users\\474191\\.nuget\\packages\\",
+        "outputPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\474191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj"
+              },
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\WebBeds.UI.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\WebBeds.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\WebBeds.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\WebBeds.UI.csproj",
+        "projectName": "WebBeds.UI",
+        "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\WebBeds.UI.csproj",
+        "packagesPath": "C:\\Users\\474191\\.nuget\\packages\\",
+        "outputPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\474191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Service\\WebBeds.Service.csproj"
+              },
+              "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj": {
+                "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj",
+        "projectName": "WebBeds.Utility",
+        "projectPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\WebBeds.Utility.csproj",
+        "packagesPath": "C:\\Users\\474191\\.nuget\\packages\\",
+        "outputPath": "C:\\Bijit\\DOTW\\SourceCode\\POC For Review\\Nabajata\\WebBedsAPI\\WebBeds.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\474191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

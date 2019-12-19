@@ -1,0 +1,16 @@
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Service.deps.json
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Service.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Service.pdb
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Repository.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Utility.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Repository.pdb
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\WebBeds.Utility.pdb
+D:\Nabajata\WebBedsAPI\WebBeds.Service\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.csprojAssemblyReference.cache
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.csproj.CoreCompileInputs.cache
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.AssemblyInfoInputs.cache
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.AssemblyInfo.cs
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.csproj.CopyComplete
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Service\obj\Debug\netcoreapp2.1\WebBeds.Service.pdb

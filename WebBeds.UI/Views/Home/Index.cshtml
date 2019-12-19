@@ -1,0 +1,67 @@
+﻿@model WebBeds.UI.Models.SearchRequestModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="card border-primary mb-3" style="margin-top: 20px">
+    <div class="card-header"><h4>Search Criteria</h4></div>
+    <div class="card-body">
+
+        <form asp-action="Index" method="post" class="form-main form-inline">
+            <div class="form-group form-input-fields form-group-lg has-feedback">
+                <label class="sr-only" for="search">Search</label>
+                <select class="form-control" required style="margin-right: 20px" asp-for="DestinationId">
+                    <option selected value="">Select Destination</option>
+                    <option value="279">India</option>
+                    <option value="1419">Dubai</option>
+                </select>
+                <input type="number" min="1" class="form-control" placeholder="Nights" required style="margin-right: 20px" asp-for="Nights">
+
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card border-primary mb-3">
+    <div class="card-header"><h4>Search Result</h4></div>
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Board Type</th>
+                    <th scope="col">Hotel Name</th>
+                    <th scope="col">Rate Type</th>
+                    <th scope="col">Actual Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var resultSet = ViewData["ResultSet"] as WebBeds.Service.FindResponseMessage;
+                }
+                @if (resultSet != null && resultSet.HotelList.Any())
+                {
+                    @foreach (var hotel in resultSet.HotelList)
+                    {
+                        <tr class="table-active">
+                            <td>@hotel.BoardType</td>
+                            <td>@hotel.HotelName</td>
+                            <td>@hotel.RateType</td>
+                            <td>@hotel.ActualPrice</td>
+                        </tr>
+                    }
+                }
+                else if (resultSet != null)
+                {
+                    <tr>
+                        <td colspan="5" class="text-danger">No data found</td>
+                    </tr>
+                }
+                else { }
+            </tbody>
+        </table>
+    </div>
+</div>
+

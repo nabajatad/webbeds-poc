@@ -1,0 +1,8 @@
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\bin\Debug\netcoreapp2.1\WebBeds.Utility.deps.json
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\bin\Debug\netcoreapp2.1\WebBeds.Utility.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\bin\Debug\netcoreapp2.1\WebBeds.Utility.pdb
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\obj\Debug\netcoreapp2.1\WebBeds.Utility.csproj.CoreCompileInputs.cache
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\obj\Debug\netcoreapp2.1\WebBeds.Utility.AssemblyInfoInputs.cache
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\obj\Debug\netcoreapp2.1\WebBeds.Utility.AssemblyInfo.cs
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\obj\Debug\netcoreapp2.1\WebBeds.Utility.dll
+D:\Nabajata\WebBedsAPI\WebBeds.Utility\obj\Debug\netcoreapp2.1\WebBeds.Utility.pdb
